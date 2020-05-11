@@ -84,3 +84,28 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.border-blue {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+
+}
+.border-green {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    margin-top: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fancy {
+    background-image: linear-gradient(to bottom, darkblue , lightblue);
+    height: 300px;
+    margin: 30px;
+    background-color: darkblue;
+    box-shadow: 2px 5px 10px black;
+    color: white;
+    word-wrap: break-word;
+}
