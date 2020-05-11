@@ -4,56 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./reset.css" />
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
+    <!-- These stylesheet links count as my link competency I think? -->
     <title>Document</title>
 </head>
 <body>
-    <div class='container'>
-        <div class='box margin'>box with margin 100 pixels from left</div>
-        <div class='box border'>box with border all around</div>
-        <div class='box padding'>box with padding on top</div>
-        <div class='box sizing'>50x50 size</div>
-        <div>
-            <div class='box float'>box floating left of text</div>
-            <p>aoivfgjnhq4w08gfhqwe08ifghaw0seidfja
-            </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
-            </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
-            </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
-            </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
-        </br>gxf87ngf786ynhc67gjmnrgc56hrm56gchrmnd </p>
+    <section class='css-competencies'>
+        <form></form>
+        <p>styled with addition selector</p>
+        <div><P>Styled with child selector</P></div>
+        <div class='container'>
+            <div class='box margin'>box with margin 100 pixels from left - selected with class</div>
+            <div class='box border'>box with border all around</div>
+            <div class='box padding'>box with padding on top</div>
+            <div class='box sizing'>50x50 size</div>
+            <div>
+                <div class='box float'>box floating left of text</div>
+                <p>aoivfgjnhq4w08gfhqwe08ifghaw0seidfja
+                </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
+                </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
+                </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
+                </br>ghasdoiufha9w8ehr98waehfosidzjnvofs
+            </br>gxf87ngf786ynhc67gjmnrgc56hrm56gchrmnd </p>
+            </div>
+            <div class='box font'>Bold, green, 18px, blue background</div>
+            <div class='box image'>Box with image</div>
         </div>
-        <div class='box font'>Bold, green, 18px, blue background</div>
-        <div class='box image'>Box with image</div>
-    </div>
-    <div class='display-flex-container'>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-        <div class='box sizing'></div>
-    </div>
-    <div class='relative-container'>
-        <div class='box absolute'>Absolute</div>
-        <div class='box fixed'>Fixed</div>
-    </div>
-
-</body>
+        <div class='display-flex-container'>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+            <div class='box sizing'></div>
+        </div>
+        <div class='relative-container'>
+            <div class='box'>Absolute box - Selected with descendent</div>
+            <div id='fixed' class='box'>Fixed box - selected with ID</div>
+        </div>
+</section>
+</br>
+    <section class='html-competencies'>
+        <img height=400 src='https://images.unsplash.com/photo-1542091607-f2c384a6af13?ixlib=rb-1.2.1&auto=format&fit=crop&w=2704&q=80'>
+        <span>HTML attribute. Also, this text is a span and the picture is an image.</span>
+        <ul>
+            <li>This</li>
+            <li>is</li>
+            <li>an</li>
+            <li>unordered</li>
+            <li>list</li>
+        </ul>
+        <h1>BIG HEADER (h1)</h1>
+        <h2>baby header (h2)</h2>
+        <article>Have working batteries in your smoke alarms? Done. Has your oil been freshly changed in your car? Done. Is there a new water filter for your refrigerator? Done. But when it comes to regularly checking your tires? Like most people, there may be some room for improvement.
+            
+            As fall travel and winter weather loom, taking a moment to check your car tires can make a difference in keeping you safe on the road.
+            
+            This year, Cooper Tires is encouraging drivers to mark Labor Day weekend on their calendar (and the first of every month) as a tire check safety moment, to make a habit of checking tires, especially as seasons change.</article>
+        </br> some spacing at bottom of section with SELF CLOSING TAG COMPETENCY
+    </section>
+    <button id='window-alert'>Javascript competency</button>
+    <script>
+        document.getElementById('window-alert').addEventListener('click', function() {window.alert('The button has been clicked.')})
+    </script>
+    <footer>footer</footer>
+    </body>
 </html>
